@@ -1,5 +1,8 @@
-This is the readme for some new project
+Title: new project #1
 
-This project is for practiciing git and github features.
+Desc: This is the readme for some new project
+
+Long Desc:
+  This project is for practiciing git and github features.
 
 
