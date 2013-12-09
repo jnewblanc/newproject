@@ -1,0 +1,12 @@
+<color>
+  <name>purple</name>
+  <mix>
+    <color>
+      <name>red</color>
+    </color>
+    <color>
+      <name>blue</color>
+    </color>
+  </mix>
+</color>
+  

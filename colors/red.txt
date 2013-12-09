@@ -1,0 +1,8 @@
+red
+crimson
+bright red #43
+dark red
+blood red
+shiny red
+deep red
+orange red

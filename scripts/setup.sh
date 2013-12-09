@@ -1,10 +1,14 @@
 #!/bin/sh
+#
+# Dummy script to simulate the setup script
+#
 
-echo "nothing to setup, so we're good to go here"
-touch .env
-true
-echo "blue"
-echo "red"
-echo "teeth"
+envfile=".env"
+
+echo "Setting up the test project"
+if [ ! -f "${envfile}" ]; then
+  echo "project=test" > ${envfile}
+fi
+echo "Done"
 
 
