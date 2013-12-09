@@ -1,8 +1,10 @@
-Title: new project #1
+Test project #1
 
-Desc: This is the readme for some new project
+Overview:
+This is a test project - please ignore
 
 Long Desc:
-  This project is for practiciing git and github features.
+  This is a test project for practicing with git and github.  There's nothing
+interesting here.
 
 
