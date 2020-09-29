@@ -1,10 +1,8 @@
-Test project #1
+# Playground repo #
 
-Overview:
-This is a test project - please ignore
+## Overview ##
+This publicly viewable repo is used for:
+- testing and teaching git and github
+- storing and sharing insignificant scripts, coding examples, and exercises.
 
-Long Desc:
-  This is a test project for practicing with git and github.  There's nothing
-interesting here.
-
-
+Any significant projects should be placed in their own standalone repo.
