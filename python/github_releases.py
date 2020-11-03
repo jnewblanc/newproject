@@ -36,7 +36,7 @@ def getData(url):
 
     # Make request & catch known connection exceptions
     try:
-        r = requests.get(apiUrl, verify=True)
+        r = requests.get(url, verify=True)
     except requests.exceptions.ConnectionError:
         log("ERROR API Request failed to connect")
         exit(1)
@@ -115,5 +115,5 @@ def get_args():
 
 if __name__ == "__main__":
     args = get_args()
-    apiUrl = '{}/repos/{}/releases'.format(args.baseurl,args.repo)
+    apiUrl = '{}/repos/{}/releases'.format(args.baseurl, args.repo)
     showData(getData(apiUrl))
